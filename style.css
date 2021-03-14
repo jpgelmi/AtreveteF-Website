@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #3E5865;
+    background: #CEDFE6;
 }
 .navbar .max-width{
     display: flex;
@@ -101,7 +101,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: #3E5865;
+    color: #CEDFE6;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -113,7 +113,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #3E5865;
+    color: #CEDFE6;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -137,7 +137,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #3E5865;
+    background: #CEDFE6;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -165,9 +165,9 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/banner.png") no-repeat center;
     height: 100vh;
-    color: #3E5865;
+    color: #CEDFE6;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -194,7 +194,7 @@ section .title::after{
 }
 .home .home-content a{
     display: inline-block;
-    background: #3E5865;
+    background: grey;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
@@ -296,7 +296,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: #3E5865;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -363,7 +363,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "";
 }
 .teams .carousel .card{
     background: #222;
@@ -374,7 +374,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: crimson;
+    background: #BCD5DC;
 }
 .teams .carousel .card .box{
     display: flex;
@@ -396,7 +396,7 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid #BCD5DC;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
@@ -412,7 +412,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid crimson!important;
+    border: 2px solid #3E5865!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -421,7 +421,7 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: crimson!important;
+    background: #3E5865!important;
 }
 
 /* contact section styling */
@@ -517,7 +517,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .contact .right form .button button:hover{
-    color: crimson;
+    color: #3E5865;
     background: none;
 }
 
@@ -529,7 +529,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: crimson;
+    color: #3E5865;
     text-decoration: none;
 }
 footer span a:hover{
