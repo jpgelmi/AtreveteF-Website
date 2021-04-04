@@ -207,7 +207,7 @@ section .title::after{
 .home .home-content a:hover{
     color:#f4741b;
     background: #CEDFE6;
-    border-color: #CEDFE6;;
+    border-color: #f4741b;
 }
 
 /* about section styling */
@@ -247,18 +247,18 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #3E5865;
+    background: #f4741b;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #3E5865;
+    border: 2px solid #f4741b;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #3E5865;
+    color: #f4741b;
     background: none;
 }
 
@@ -327,7 +327,7 @@ section .title::after{
 /* teams section styling */
 .teams{
     display: flex;
-    align-items: center;
+    align-items: center ;
     flex-direction: column;
 }
 .teams a {
