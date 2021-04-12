@@ -4,8 +4,9 @@ html {
     font-family: "Century Gothic", sans-serif;
   }
   .text{
-    font-size: 20px;
+    font-size: 15px;
     color: white;
+    align-text: center ;
   }
   #gallery {
     max-width: 960px;
@@ -15,9 +16,10 @@ html {
   }
   #gallery h1 {
     color: #f9e559;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 100;
     padding: 50px 40px 0px;
+    margin-bottom: 5rem;
     text-transform: uppercase;
   }
   #gallery p {
@@ -38,7 +40,6 @@ html {
   }
   #gallery .img-container img {
     width: 100%;
-
   }
   #gallery .img-caption {
     position: relative;
