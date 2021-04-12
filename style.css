@@ -398,6 +398,16 @@ section .title::after{
 	line-height: 2rem;
 	font-weight: 500;
 }
+@media (max-width: 947px){
+    #contact .contact-items {
+        width: 100%;
+        display: flex;
+    }
+}
+
+.media-footer{
+    font-size: 19px;
+}
 /*End contact Section */
 
 
