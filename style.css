@@ -351,6 +351,7 @@ section .title::after{
 	min-height: 20vh;
 	width: 100%;
     display: flex;
+
 	align-items: center;
 	justify-content: center;
 }
@@ -399,12 +400,6 @@ section .title::after{
 }
 /*End contact Section */
 
-.media-footer-title{
-    size: 1px !important;
-}
-.media-footer{
-    size: 1px !important;
-}
 
 /* footer section styling */
 footer{
