@@ -164,7 +164,7 @@ p {
 
 .hero {
   position: relative;
-  background: url(./fotos/bg.png) no-repeat center center fixed;
+  background: url(./fotos/bg-min.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
