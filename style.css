@@ -556,3 +556,27 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+.unit{
+    width: 90% !important;
+    height: auto;
+    border-radius: 5px;
+}
+
+.qn-display{
+    display: flex;
+    flex-direction: row;
+}
+
+.qn-text{
+    position: absolute;
+    top: 17px;
+    left: 20px;
+}
+
+@media (max-width: 800px) {
+    .qn-display{
+        display: flex;
+        flex-direction: column;
+    }
+}
