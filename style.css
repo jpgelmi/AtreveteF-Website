@@ -561,17 +561,12 @@ footer span a:hover{
     width: 90% !important;
     height: auto;
     border-radius: 5px;
+    margin-top: 2rem;
 }
 
 .qn-display{
     display: flex;
     flex-direction: row;
-}
-
-.qn-text{
-    position: absolute;
-    top: 17px;
-    left: 20px;
 }
 
 @media (max-width: 800px) {
